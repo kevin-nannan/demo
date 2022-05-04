@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nettyStudy:war">
+    <output-path>$PROJECT_DIR$/nettyStudy/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nettyStudy</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nettyStudy-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="nettyStudy:war exploded" />
+    </root>
+  </artifact>
+</component>
